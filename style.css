@@ -186,6 +186,11 @@ h2.heading {
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 10px #00000070;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translate3d(-10px, -10px, 0);
 }
 
 .card h2 {
