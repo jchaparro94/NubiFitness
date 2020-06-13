@@ -243,3 +243,42 @@ h2.heading {
   top: 20px;
   right: -34px;
 }
+
+/* Footer */
+footer {
+  background: #262626;
+  height: 75px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links,
+.social-links {
+  margin-top: 20px;
+}
+
+.footer-links ul,
+.social-links ul {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.footer-links ul li a {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.social-links ul li a {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.social-links ul li a:hover {
+  color: #1868C6;
+}
